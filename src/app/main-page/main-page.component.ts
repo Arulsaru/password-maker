@@ -5,4 +5,9 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './main-page.component.html',
   styleUrls: ['./main-page.component.scss']
 })
-export class MainPageComponent {}
+export class MainPageComponent {
+  // constructor(private elementRef: HTMLElement) { }
+  generatePassword(): void {
+    console.log("Arulmozhi");
+  }
+}

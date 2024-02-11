@@ -1,5 +1,5 @@
 * {
-  text-align: center;
+  user-select: none;
 }
 
 h1 {
@@ -7,16 +7,37 @@ h1 {
   font-weight: 800;
   font-size: 38px;
   text-align: center;
-  margin: 50px 0px 30px 0px;
+  margin: 50px 0px 40px 0px;
 }
 
-p {
-    font-family: "MierB03", "Helvetica", "Arial", sans-serif;
-    font-size: 15px;
-    margin-bottom: 40px;
+.center {
+  text-align: center;
+}
+
+#tag-line {
+  font-family: "MierB03", "Helvetica", "Arial", sans-serif;
+  font-size: 17px;
+  margin-bottom: 40px;
 }
 
 .password-image {
-    width: 400px;
-    margin-left: 40px;
+  width: 400px;
+  margin-left: 40px;
+  float: left;
+}
+
+.text-box {
+  width: 400px;
+  background-color: white;
+  border-color: white; 
+  position: relative;
+  top: 50px;
+  left: 100px;
+}
+
+.refresh-icon {
+  position: relative;
+  left: 450px;
+  top: 20px;
+  cursor: pointer;
 }
